@@ -1,0 +1,81 @@
+body {
+    font-family:'Lato', Helvetica, Arial;
+    font-size:15px;
+    margin: 0;
+    min-height:100vh;
+}
+
+p{
+    color: black;
+}
+
+img{
+    border-radius: 20px;
+    width: 35%;
+    vertical-align: middle;
+}
+
+th{
+    text-align: center;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.login{
+    margin: 2% 10% 3% 10%;
+    padding: 2%;
+    color:black;
+    background-color: rgb(225, 255, 225);
+    border-radius: 10px;
+}
+
+.botao{
+    text-align: center;
+    color: white;
+}
+
+.botao-login{
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 10px;
+    background-color: green;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.botao-login:hover {
+    background-color: darkgreen;
+}
+
+.botao-cadastra{
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 10px;
+    background-color: rgb(40, 175, 40);
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.botao-cadastra:hover {
+    background-color: green;
+}
+
+a.link {
+    color: blue !important;
+    text-decoration: underline !important;
+}
+
+

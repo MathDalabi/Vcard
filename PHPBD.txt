@@ -1,0 +1,3 @@
+Normalmente formulário é post
+
+varchar no php tem que colocar aspas
