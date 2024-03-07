@@ -38,12 +38,8 @@
         <!-- Adicione mais informações sobre os palestrantes -->
     </section>
 
-    <section id="inscricao">
-        <h2>Inscrição</h2>
-        <p>Inscreva-se no nosso evento preenchendo o formulário abaixo:</p>
-        <form action="processa_inscricao.php" method="post">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
+    <section id="inscricao"        <p>Inscreva-se no nosso evento preenchendo o formulário abaixo:</p>
+        <form action="processa_inscricao.php" method="post">            <input type="text" id="nome" name="nome" required>
 
             <label for="email">E-mail:</label>
             <input type="email" id="email" name="email" required>
